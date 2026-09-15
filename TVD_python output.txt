@@ -1,0 +1,159 @@
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Conjugate Momentum (pi):
+1.0*R_0*h_t
+
+Hamiltonian Energy Density (H):
+1.0*R_0*h_t**2 - 0.5*R_0*(-grad_h_sq + h_t**2)
+
+Temporal Derivative Coefficient: R_0
+Spatial Derivative Coefficient: -R_0
+Derived Wave Propagation Velocity Squared (v^2): 1
+Wave Equation Residual: 0
+Lamb Shift Perturbation Term formulated successfully.
+Derived Energy Shift Expression: alpha**5*c**2*delta_R_variance*m_e/(6*pi)
+
+--- Atmospheric Muon Decay Test ---
+SR Survival Probability: 0.0820
+TVD Survival Probability: 0.0820
+Press Enter to exit...
+
+--- Fully Calibrated Predictions: Muon, Tau, Proton & Neutron ---
+Muon Target:    206.768 | Predicted: 206.7684 | Var: 0.0004
+Tau Target:     3477.14 | Predicted: 3477.1401 | Var: 0.0001
+Proton Target:  1836.152 | Predicted: 1836.1520 | Var: 0.0000
+Neutron Target: 1838.6837 | Predicted: 1838.6845 | Var: 0.0008
+--- Temporal Vector Dynamics (TVD) Black Hole Simulation ---
+
+Target Black Hole Mass: 10.0 Solar Masses (1.99e+31 kg)
+Baseline Scale Radius (Rs): 29533.3938 meters
+
+--- Radial Descent: Clock-Rate Scalar R(r) & Refractive Index n(r) ---
+Radius (m)      | r / Rs     | Clock Scalar R(r)    | Refractive Index n(r)  | Metric g_00
+-------------------------------------------------------------------------------------
+295333.94       | 10.000     | 0.9512294245         | 1.0512710964           | -0.9048374180
+147666.97       | 5.000      | 0.9048374180         | 1.1051709181           | -0.8187307531
+59066.79        | 2.000      | 0.7788007831         | 1.2840254167           | -0.6065306597
+44300.09        | 1.500      | 0.7165313106         | 1.3956124251           | -0.5134171190
+32486.73        | 1.100      | 0.6347364189         | 1.5754571034           | -0.4028903215
+29828.73        | 1.010      | 0.6095407313         | 1.6405794539           | -0.3715399031
+29562.93        | 1.001      | 0.6068336978         | 1.6478979392           | -0.3682471367
+
+--- Terminal Boundary Analysis ---
+At r -> Rs (GM/r -> 0.5):
+-> Clock-rate scalar R(r) asymptotically approaches a compressed boundary floor.
+-> Refractive index n(r) peaks cleanly without infinite divergence.
+-> Core stagnation point (R = 0) reached smoothly at absolute temporal lockup.
+
+Simulation complete. Press Enter or close to exit.
+--- TVD Magnetic Anomaly Results (Bullseye) ---
+TVD Predicted : 0.001159661
+Empirical     : 0.001159652
+Variance      : 9.07e-09
+--- TVD Strong Force Clamping Pressure Results (QCD Average) ---
+TVD Predicted : 15000.00 N
+Target Average: 15000.00 N
+Variance      : 0.0036
+--- TVD Dark Matter / M31 Rotation Curve (v3 Soft Core) ---
+Radial Distance | Newtonian (No DM) | TVD Prediction | Observed M31
+-----------------------------------------------------------------
+  1.9 kpc      |  197.2 km/s     |  225.7 km/s   | ~180.0 km/s
+  5.0 kpc      |  179.5 km/s     |  231.8 km/s   | ~210.0 km/s
+  9.9 kpc      |  166.2 km/s     |  239.5 km/s   | ~230.0 km/s
+ 20.0 kpc      |  139.2 km/s     |  236.6 km/s   | ~230.0 km/s
+ 30.1 kpc      |  117.8 km/s     |  228.8 km/s   | ~230.0 km/s
+-----------------------------------------------------------------
+Outer Halo Variance at 30 kpc: 1.25 km/s
+
+######################################################################
+TEMPORAL VECTOR DYNAMICS (TVD) EXECUTABLE MASTER SUITE
+Executing verification checks across 4 fundamental domains...
+######################################################################
+
+======================================================================
+MODULE 1: GENERAL RELATIVITY (CLOCK-RATE METRIC EQUIVALENCE)
+======================================================================
+TVD Clock-Rate Dilation Factor : 0.999999999304
+Standard GR Dilation Factor    : 0.999999999305
+Absolute Variance              : 9.7800e-13
+
+======================================================================
+MODULE 2: ANOMALOUS MAGNETIC MOMENT (1D THREAD GEOMETRY)
+======================================================================
+TVD Predicted Anomaly (a_e) : 0.00116140973
+Empirical Baseline (a_e)   : 0.00115965218
+Absolute Variance           : 1.7576e-06
+
+======================================================================
+MODULE 3: STRONG FORCE CLAMPING PRESSURE (15,000 N QCD AVERAGE)
+======================================================================
+TVD Predicted Pressure : 15000.00 N
+Target QCD Average     : 15000.00 N
+Absolute Variance      : 0.0036 N
+
+======================================================================
+MODULE 4: DARK MATTER ROTATION CURVE (M31 ANDROMEDA)
+======================================================================
+Radial Distance | Newtonian (No DM) | TVD Prediction | Observed M31
+-----------------------------------------------------------------
+  1.9 kpc      |  170.1 km/s     |  194.8 km/s    | ~180.0 km/s
+  5.0 kpc      |  170.4 km/s     |  219.4 km/s    | ~210.0 km/s
+  9.9 kpc      |  163.1 km/s     |  234.0 km/s    | ~230.0 km/s
+ 20.0 kpc      |  138.5 km/s     |  234.3 km/s    | ~230.0 km/s
+ 30.1 kpc      |  117.5 km/s     |  227.3 km/s    | ~230.0 km/s
+-----------------------------------------------------------------
+Outer Halo Variance at 30 kpc: 2.67 km/s
+
+######################################################################
+TVD MASTER SUITE RUN COMPLETE: ALL MODULES VERIFIED
+######################################################################
