@@ -1,0 +1,967 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+============ RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ===========
+SymPy initialized. Temporal tick rate variable R loaded.
+
+============================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ==============================
+SymPy initialized. Temporal tick rate variable R loaded.
+
+============================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ==============================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+Traceback (most recent call last):
+  File "C:/Users/waltm/OneDrive/Documents/tvd_model.py", line 95, in <module>
+    sourced_static_eq = sp.Eq(sp.laplacian(sp.ln(R), (x, y, z)), 4 * sp.pi * G_const * rho)
+AttributeError: module 'sympy' has no attribute 'laplacian'
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+Traceback (most recent call last):
+  File "C:/Users/waltm/OneDrive/Documents/tvd_model.py", line 95, in <module>
+    sourced_static_eq = sp.Eq(sp.laplacian(sp.ln(R), (x, y, z)), 4 * sp.pi * G_const * rho)
+AttributeError: module 'sympy' has no attribute 'laplacian'
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+Traceback (most recent call last):
+  File "C:/Users/waltm/OneDrive/Documents/tvd_model.py", line 95, in <module>
+    sourced_static_eq = sp.Eq(sp.laplacian(sp.ln(R), (x, y, z)), 4 * sp.pi * G_const * rho)
+AttributeError: module 'sympy' has no attribute 'laplacian'
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+==================== RESTART: C:/Users/waltm/OneDrive/Documents/tvd_model.py ====================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+=================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ===================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+=================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ==================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+Traceback (most recent call last):
+  File "C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py", line 187, in <module>
+    linearized_wave = wave_operator.subs(R_func, R_0 + epsilon * h).series(epsilon, 0, 2).coeff(epsilon, 1)
+NameError: name 'R_0' is not defined. Did you mean: 'R_x'?
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+Traceback (most recent call last):
+  File "C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py", line 187, in <module>
+    linearized_wave = wave_operator.subs(R_func, R_0 + epsilon * h).series(epsilon, 0, 2).coeff(epsilon, 1)
+NameError: name 'R_0' is not defined. Did you mean: 'R_x'?
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+Traceback (most recent call last):
+  File "C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py", line 187, in <module>
+    linearized_wave = wave_operator.subs(R_func, R_0 + epsilon * h).series(epsilon, 0, 2).coeff(epsilon, 1)
+NameError: name 'R_0' is not defined. Did you mean: 'R_x'?
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Conjugate Momentum (pi):
+1.0*R_0*h_t
+
+Hamiltonian Energy Density (H):
+1.0*R_0*h_t**2 - 0.5*R_0*(-grad_h_sq + h_t**2)
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Conjugate Momentum (pi):
+1.0*R_0*h_t
+
+Hamiltonian Energy Density (H):
+1.0*R_0*h_t**2 - 0.5*R_0*(-grad_h_sq + h_t**2)
+Traceback (most recent call last):
+  File "C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py", line 243, in <module>
+    t_coeff = linearized_wave.coeff(sp.diff(h(t, x, y, z), (t, 2)))
+TypeError: 'h' object is not callable
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Conjugate Momentum (pi):
+1.0*R_0*h_t
+
+Hamiltonian Energy Density (H):
+1.0*R_0*h_t**2 - 0.5*R_0*(-grad_h_sq + h_t**2)
+
+Temporal Derivative Coefficient: R_0
+Spatial Derivative Coefficient: -R_0
+Derived Wave Propagation Velocity Squared (v^2): 1
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Conjugate Momentum (pi):
+1.0*R_0*h_t
+
+Hamiltonian Energy Density (H):
+1.0*R_0*h_t**2 - 0.5*R_0*(-grad_h_sq + h_t**2)
+
+Temporal Derivative Coefficient: R_0
+Spatial Derivative Coefficient: -R_0
+Derived Wave Propagation Velocity Squared (v^2): 1
+Wave Equation Residual: 0
+
+==================================================== RESTART: C:/Users/waltm/OneDrive/Desktop/TVD/tvd_model.py ====================================================
+SymPy initialized. Temporal tick rate variable R loaded.
+Metric component g_00 successfully defined as: -R(t, x, y, z)**2
+Lagrangian successfully formulated: Derivative(R(t, x, y, z), t)**2/(2*R(t, x, y, z)**2)
+Partial derivative dL/dR: -Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3
+Partial derivative dL/dv_R: v_R/R(t, x, y, z)**2
+Euler-Lagrange Field Equation successfully derived:
+Eq(Derivative(R(t, x, y, z), (t, 2))/R(t, x, y, z)**2 - Derivative(R(t, x, y, z), t)**2/R(t, x, y, z)**3, 0)
+
+Simplified Field Equation:
+Eq((R(t, x, y, z)*Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), t)**2)/R(t, x, y, z)**3, 0)
+
+Spatial Lagrangian formulated successfully.
+
+Full Field Wave Equation successfully derived:
+Eq(((Derivative(R(t, x, y, z), (t, 2)) - Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) - Derivative(R(t, x, y, z), t)**2 + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Static Field Limit Equation:
+Eq(((-Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), (z, 2)))*R(t, x, y, z) + Derivative(R(t, x, y, z), x)**2 + Derivative(R(t, x, y, z), y)**2 + Derivative(R(t, x, y, z), z)**2)/R(t, x, y, z)**3, 0)
+
+Sourced Field Equation (Poisson form for ln(R)):
+Eq((Derivative(R(t, x, y, z), (x, 2)) - Derivative(R(t, x, y, z), x)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (y, 2)) - Derivative(R(t, x, y, z), y)**2/R(t, x, y, z))/R(t, x, y, z) + (Derivative(R(t, x, y, z), (z, 2)) - Derivative(R(t, x, y, z), z)**2/R(t, x, y, z))/R(t, x, y, z), 4*pi*G*rho)
+Radial Laplacian form for point mass check loaded successfully.
+
+Solved Radial Profile for ln(R):
+Eq(ln_R(r), C1 + C2/r)
+
+Radial Gradient Flux (Surface Integral term):
+-4*pi*C2
+Physical mapping for C_2: C_2 = -G*M
+
+Derived g_00 Metric Component:
+-exp(-2*G*M/r)
+
+Weak-field behavior check:
+-1 + 2*GM_term/r + O(GM_term**2)
+
+Effective Refractive Index of Space n(r):
+exp(G*M/r)
+
+Weak-field refractive expansion:
+1 + GM_term/r + O(GM_term**2)
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Wave operator structure loaded successfully.
+
+Linearized Wave Equation (First-order perturbation):
+R_0*Derivative(h(t, x, y, z), (t, 2)) - R_0*Derivative(h(t, x, y, z), (x, 2)) - R_0*Derivative(h(t, x, y, z), (y, 2)) - R_0*Derivative(h(t, x, y, z), (z, 2)) + h(t, x, y, z)*Derivative(R_0, (t, 2)) - h(t, x, y, z)*Derivative(R_0, (x, 2)) - h(t, x, y, z)*Derivative(R_0, (y, 2)) - h(t, x, y, z)*Derivative(R_0, (z, 2))
+
+Conjugate Momentum (pi):
+1.0*R_0*h_t
+
+Hamiltonian Energy Density (H):
+1.0*R_0*h_t**2 - 0.5*R_0*(-grad_h_sq + h_t**2)
+
+Temporal Derivative Coefficient: R_0
+Spatial Derivative Coefficient: -R_0
+Derived Wave Propagation Velocity Squared (v^2): 1
+Wave Equation Residual: 0
+Lamb Shift Perturbation Term formulated successfully.
+Derived Energy Shift Expression: alpha**5*c**2*delta_R_variance*m_e/(6*pi)
